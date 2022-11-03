@@ -1,0 +1,48 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cuerpoPagina{
+    background-image: url('../img/fondo5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:  100vw;
+    height: 100vh;
+}
+.encabezado{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.titulo{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 4rem;
+    width: 100%;   
+}
+
+.carrera{
+    background-color: rgba(234,201,166,0.5);
+    padding-left: 0px;
+    padding-right: 0px;
+    display: none;  
+}
+
+[class*=caballo] {
+    position: relative;
+}
+
+.caballo2{
+    width: 6.5rem;
+    display: none;
+}
+
+.caballo4{
+    width: 5.8rem;
+    display: none;
+}
+.caballoActivo{
+    display: inline;
+    
+}
